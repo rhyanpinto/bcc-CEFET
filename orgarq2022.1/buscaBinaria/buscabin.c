@@ -44,10 +44,11 @@ int main(int argc, char **argv)
 		if (cmp == 0)
 		{
 			printf("\n-------------------------------------------------\n");
-			printf("Achei!! A quantidade de iterações que fiz foi: %d\n",qtd);
+			printf("Achei!! A quantidade de iteracoes que fiz foi: %d\n",qtd);
 			printf("-------------------------------------------------\n");
 			if (qtd == 1)
-				printf("O CEP era o do meio da lista!");
+				printf("O CEP era o do meio da lista!\n");
+			printf("%.72s\n%.72s\n%.72s\n%.72s\n%.2s\n%.8s\n",e.logradouro,e.bairro,e.cidade,e.uf,e.sigla,e.cep);
 			break;
 		}
 
