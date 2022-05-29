@@ -1,4 +1,4 @@
-# Organização e Estrutura de Arquivos
+# Organização e Estrutura de Arquivos :file_folder:
 
 ## Repositório do curso de Organização e Estrutura de Arquivos - 2022.1
 
