@@ -5,7 +5,7 @@ O trabalho tinha como objetivo implementar a busca binária para achar um endere
 ## Orientações:
 
 * Atividade Busca Binária:
-  * Arquivo cep_ordenado.dat não está nesse repositório.
+  * O Arquivo ceps_RJ_ordenado.dat é utilizado para fazer a busca.
   * Utilização (via terminal):
     ```
     gcc -o buscabin buscabin.c

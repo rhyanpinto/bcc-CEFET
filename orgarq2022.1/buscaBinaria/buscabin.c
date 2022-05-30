@@ -22,7 +22,7 @@ int main(int argc, char **argv)
 	Endereco e;
 	int qt;
 
-	f = fopen("cep_ordenado.dat", "rb");
+	f = fopen("ceps_RJ_ordenado.dat", "rb");
 
 	fseek(f, 0, SEEK_END); //A cabeça de leitura vai para ao final do arquivo
 	long tb = ftell(f); //Pergunta e armazena o tamnho do arquivo
