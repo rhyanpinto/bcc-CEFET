@@ -1,5 +1,5 @@
-import { MyDatabaseFunction } from "./db/my-database-function";
-import { myDatabaseClassic as myDatabaseFromModuleA } from "./module_a";
+import { MyDatabaseFunction } from './db/my-database-function';
+import { myDatabaseClassic as myDatabaseFromModuleA } from './module_a';
 
 const myDatabaseClassic = MyDatabaseFunction;
 myDatabaseClassic.add({ name: 'Robert', age: 30 });

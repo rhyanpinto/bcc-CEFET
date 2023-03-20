@@ -1,4 +1,4 @@
-import { User } from "../interfaces/users";
+import { User } from '../interfaces/users';
 
 const users: User[] = [];
 
@@ -16,5 +16,4 @@ export const MyDatabaseModule = {
       console.log(user);
     }
   },
-}
-
+};

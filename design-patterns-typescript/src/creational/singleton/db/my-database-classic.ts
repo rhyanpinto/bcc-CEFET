@@ -1,5 +1,4 @@
-import { User } from "../interfaces/users";
-
+import { User } from '../interfaces/users';
 
 export class MyDatabaseClassic {
   private static _instance: MyDatabaseClassic | null = null;
@@ -29,4 +28,3 @@ export class MyDatabaseClassic {
     }
   }
 }
-

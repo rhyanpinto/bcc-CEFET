@@ -1,7 +1,6 @@
-import { User } from "../interfaces/users";
+import { User } from '../interfaces/users';
 
-
-export const MyDatabaseFunction = (function() {
+export const MyDatabaseFunction = (function () {
   const users: User[] = [];
 
   return {
@@ -18,6 +17,5 @@ export const MyDatabaseFunction = (function() {
         console.log(user);
       }
     },
-  }
-})()
-
+  };
+})();
