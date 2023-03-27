@@ -1,8 +1,8 @@
-import { CarFactory } from "../factories/carFactory";
-import { randomVehicleAlgorithm } from "../main/randomVehicleAlgorithm";
+import { CarFactory } from '../factories/carFactory';
+import { randomVehicleAlgorithm } from '../main/randomVehicleAlgorithm';
 
 const carFactory = new CarFactory();
-const customerNames = ["Ana", "Bia", "Carlos", "Daniel"];
+const customerNames = ['Ana', 'Bia', 'Carlos', 'Daniel'];
 
 for (let i = 0; i < 10; i++) {
   const vehicle = randomVehicleAlgorithm();
@@ -11,5 +11,5 @@ for (let i = 0; i < 10; i++) {
   vehicle.stop();
   const newCar = carFactory.pickUp(name, `NEW CAR ${i}`);
   newCar.stop();
-  console.log("	------------------------	")
+  console.log('	------------------------	');
 }

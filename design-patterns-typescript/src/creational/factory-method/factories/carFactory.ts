@@ -1,6 +1,6 @@
-import { Car } from "../vehicle/car";
-import { Vehicle } from "../vehicle/vehicle";
-import { VehicleFactory } from "./vehicleFactory";
+import { Car } from '../vehicle/car';
+import { Vehicle } from '../vehicle/vehicle';
+import { VehicleFactory } from './vehicleFactory';
 
 export class CarFactory extends VehicleFactory {
   getVehicle(vehicleName: string): Vehicle {

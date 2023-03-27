@@ -1,6 +1,6 @@
 {
   "env": {
-    "brwoser": true,
+    "browser": true,
     "es2022": true,
     "node": true
   },
@@ -8,11 +8,11 @@
     "eslint:recommended",
     "puglin:@typescript-eslint/eslint-recommended",
     "puglin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    "plugin:prettier/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
-    "SharedArrayBuffer": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
   "parser": "@typescript-eslint/parser",
   "parserOptions": {

@@ -1,6 +1,6 @@
-import { Vehicle } from "./vehicle";
+import { Vehicle } from './vehicle';
 
-export class Car implements  Vehicle {
+export class Car implements Vehicle {
   constructor(private name: string) {}
 
   public pickup(customerName: string): void {
