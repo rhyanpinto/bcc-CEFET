@@ -6,6 +6,10 @@ export class RemoteControl {
   togglePower(): void {
     this.device.setPower(!this.device.getPower());
     //get the name of the device and the power status
-    console.log(`${this.device.getName()} power is ${this.device.getPower() ? 'on' : 'off'}`);
+    console.log(
+      `${this.device.getName()} power is ${
+        this.device.getPower() ? 'on' : 'off'
+      }`,
+    );
   }
 }

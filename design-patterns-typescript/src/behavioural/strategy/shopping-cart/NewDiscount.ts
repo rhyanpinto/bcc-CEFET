@@ -1,5 +1,5 @@
-import { DiscountStrategy } from "./DiscountStrategy";
-import { ECommerceShoppingCart } from "./ECommerceShoppingCart";
+import { DiscountStrategy } from './DiscountStrategy';
+import { ECommerceShoppingCart } from './ECommerceShoppingCart';
 
 export class NewDiscount extends DiscountStrategy {
   protected discount = 0;

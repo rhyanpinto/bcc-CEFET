@@ -15,12 +15,11 @@ export class Tv implements DeviceImplementation {
     return this.power;
   }
   setVolume(volume: number): void {
-    if(volume < 0) volume = 0;
-    if(volume > 100) volume = 100;
+    if (volume < 0) volume = 0;
+    if (volume > 100) volume = 100;
     this.volume = volume;
   }
   getVolume(): number {
     return this.volume;
   }
-
 }

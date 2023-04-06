@@ -1,4 +1,4 @@
-import { ShoppingOrder } from "./shopping-order/ShoppingOrder";
+import { ShoppingOrder } from './shopping-order/ShoppingOrder';
 
 const order = new ShoppingOrder(); // Pendente
 order.approvePayment(); // Aprovado

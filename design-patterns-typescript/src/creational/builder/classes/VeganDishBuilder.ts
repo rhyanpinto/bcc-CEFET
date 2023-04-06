@@ -1,6 +1,6 @@
-import { MealBuilderProtocol } from "../interfaces/MealBuilderProtocol";
-import { MealBox } from "./MealBox";
-import { Beans, Rice } from "./Meals";
+import { MealBuilderProtocol } from '../interfaces/MealBuilderProtocol';
+import { MealBox } from './MealBox';
+import { Beans, Rice } from './Meals';
 
 export class VeganDishBuilder implements MealBuilderProtocol {
   private _meal: MealBox = new MealBox();
@@ -12,7 +12,7 @@ export class VeganDishBuilder implements MealBuilderProtocol {
 
   makeMeal(): this {
     const rice = new Rice('Arroz', 5);
-    const beans = new Beans('Feijão', 7);;
+    const beans = new Beans('Feijão', 7);
     this._meal.add(rice, beans);
     return this;
   }

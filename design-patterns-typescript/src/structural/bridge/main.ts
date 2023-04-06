@@ -1,13 +1,15 @@
-import { Radio } from "./device/Radio";
-import { Tv } from "./device/Tv";
-import { RemoteControlWithVolume } from "./remote-control/RemoteControlWithVolume";
-import { RemoteControl } from "./remote-control/RemoteControl";
+import { Radio } from './device/Radio';
+import { Tv } from './device/Tv';
+import { RemoteControlWithVolume } from './remote-control/RemoteControlWithVolume';
+import { RemoteControl } from './remote-control/RemoteControl';
 
-export function clientCode(abstraction: RemoteControl | RemoteControlWithVolume): void {
+export function clientCode(
+  abstraction: RemoteControl | RemoteControlWithVolume,
+): void {
   abstraction.togglePower();
 
   // Type Guard
-  if (!("volumeUp" in abstraction)) return;
+  if (!('volumeUp' in abstraction)) return;
   abstraction.volumeUp();
   abstraction.volumeUp();
   abstraction.volumeUp();
@@ -21,4 +23,3 @@ const radioRemoteControl = new RemoteControl(radio);
 clientCode(radioRemoteControl);
 const tvRemoteControl = new RemoteControlWithVolume(tv);
 clientCode(tvRemoteControl);
-

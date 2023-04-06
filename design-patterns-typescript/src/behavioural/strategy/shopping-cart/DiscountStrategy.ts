@@ -1,4 +1,4 @@
-import { ECommerceShoppingCart } from "./ECommerceShoppingCart";
+import { ECommerceShoppingCart } from './ECommerceShoppingCart';
 
 export class DiscountStrategy {
   getDiscount(cart: ECommerceShoppingCart): number {

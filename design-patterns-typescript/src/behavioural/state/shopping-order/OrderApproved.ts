@@ -1,7 +1,7 @@
-import { OrderPending } from "./OrderPending";
-import { OrderRejected } from "./OrderRejected";
-import { ShoppingOrder } from "./ShoppingOrder";
-import { ShoppingOrderState } from "./ShoppingOrderState";
+import { OrderPending } from './OrderPending';
+import { OrderRejected } from './OrderRejected';
+import { ShoppingOrder } from './ShoppingOrder';
+import { ShoppingOrderState } from './ShoppingOrderState';
 
 export class OrderApproved implements ShoppingOrderState {
   private name = 'OrderApproved';

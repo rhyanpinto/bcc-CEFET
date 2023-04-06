@@ -1,12 +1,12 @@
-import { DiscountStrategy } from "./DiscountStrategy";
-import { ECommerceProductProtocol } from "./ECommerceProductProtocol";
+import { DiscountStrategy } from './DiscountStrategy';
+import { ECommerceProductProtocol } from './ECommerceProductProtocol';
 
 export class ECommerceShoppingCart {
   private products: ECommerceProductProtocol[] = [];
   private _discountStrategy: DiscountStrategy = new DiscountStrategy();
 
   addProduct(...products: ECommerceProductProtocol[]): void {
-    products.forEach(product => {
+    products.forEach((product) => {
       this.products.push(product);
     });
   }

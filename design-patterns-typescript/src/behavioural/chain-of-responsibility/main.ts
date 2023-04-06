@@ -1,8 +1,8 @@
-import { CEOBudgetHandler } from "./CEOBudgetHandler";
-import { CustomerBudget } from "./CustomerBudget";
-import { DirectorBudgetHandler } from "./DirectorBudgetHandler";
-import { ManagerBudgetHandler } from "./ManagerBudgetHandler";
-import { SellerBudgetHandler } from "./SellerBudgetHandler";
+import { CEOBudgetHandler } from './CEOBudgetHandler';
+import { CustomerBudget } from './CustomerBudget';
+import { DirectorBudgetHandler } from './DirectorBudgetHandler';
+import { ManagerBudgetHandler } from './ManagerBudgetHandler';
+import { SellerBudgetHandler } from './SellerBudgetHandler';
 
 const customerBudget = new CustomerBudget(5001);
 

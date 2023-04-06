@@ -1,6 +1,5 @@
-import { OrderPending } from "./OrderPending";
-import { ShoppingOrderState } from "./ShoppingOrderState";
-
+import { OrderPending } from './OrderPending';
+import { ShoppingOrderState } from './ShoppingOrderState';
 
 export class ShoppingOrder {
   private state: ShoppingOrderState = new OrderPending(this);

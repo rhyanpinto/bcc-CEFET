@@ -1,4 +1,7 @@
-import { SystemUserAddressProtocol, SystemUserProtocol } from "./systemUserProtocol";
+import {
+  SystemUserAddressProtocol,
+  SystemUserProtocol,
+} from './systemUserProtocol';
 
 export class AdminUser implements SystemUserProtocol {
   firstName: string;
@@ -16,7 +19,7 @@ export class AdminUser implements SystemUserProtocol {
           { street: 'Street 1', number: 1 },
           { street: 'Street 2', number: 2 },
         ]);
-    }, 2000);
+      }, 2000);
     });
   }
 }

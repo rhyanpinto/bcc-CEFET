@@ -4,13 +4,17 @@ export class RemoteControlWithVolume extends RemoteControl {
   volumeUp(): void {
     const volume = this.device.getVolume();
     this.device.setVolume(volume + 5);
-    console.log(`${this.device.getName()} volume is at ${this.device.getVolume()}`);
+    console.log(
+      `${this.device.getName()} volume is at ${this.device.getVolume()}`,
+    );
   }
 
   volumeDown(): void {
     const volume = this.device.getVolume();
     this.device.setVolume(volume - 5);
-    console.log(`${this.device.getName()} volume is at ${this.device.getVolume()}`);
+    console.log(
+      `${this.device.getName()} volume is at ${this.device.getVolume()}`,
+    );
   }
 
   mute(): void {

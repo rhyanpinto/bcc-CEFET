@@ -1,5 +1,8 @@
-import { AdminUser } from "./adminUser";
-import { SystemUserAddressProtocol, SystemUserProtocol } from "./systemUserProtocol";
+import { AdminUser } from './adminUser';
+import {
+  SystemUserAddressProtocol,
+  SystemUserProtocol,
+} from './systemUserProtocol';
 
 export class SystemUserProxy implements SystemUserProtocol {
   private realUser: SystemUserProtocol | null = null;

@@ -1,5 +1,5 @@
-import { ShoppingOrder } from "./ShoppingOrder";
-import { ShoppingOrderState } from "./ShoppingOrderState";
+import { ShoppingOrder } from './ShoppingOrder';
+import { ShoppingOrderState } from './ShoppingOrderState';
 
 export class OrderRejected implements ShoppingOrderState {
   private name = 'OrderRejected';
@@ -11,7 +11,7 @@ export class OrderRejected implements ShoppingOrderState {
   }
 
   approvePayment(): void {
-    console.log('I can\'t approve the payment because the order was declined.');
+    console.log("I can't approve the payment because the order was declined.");
   }
 
   rejectPayment(): void {

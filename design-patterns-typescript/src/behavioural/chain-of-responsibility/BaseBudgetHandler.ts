@@ -1,4 +1,4 @@
-import { CustomerBudget } from "./CustomerBudget";
+import { CustomerBudget } from './CustomerBudget';
 
 export abstract class BaseBudgetHandler {
   protected nextHandler: BaseBudgetHandler | null = null;
@@ -9,7 +9,7 @@ export abstract class BaseBudgetHandler {
   }
 
   handle(budget: CustomerBudget): CustomerBudget {
-    if(this.nextHandler) {
+    if (this.nextHandler) {
       this.nextHandler.handle(budget);
     }
     return budget;
