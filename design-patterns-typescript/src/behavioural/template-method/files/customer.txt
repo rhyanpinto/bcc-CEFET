@@ -1,0 +1,6 @@
+John Doe	30	606.351.450-30
+Jane Doe	25	351.370.123-04
+Paul McCartney	75	731.249.475.00
+John Lennon	80	123.456.789-00
+Ringo Starr	81	009.876.543-21
+George Harrison	76	777.777.777-77

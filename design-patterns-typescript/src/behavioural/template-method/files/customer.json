@@ -1,0 +1,32 @@
+[
+  {
+    "name": "John Doe",
+    "age": "30",
+    "cpf": "606.351.450-30"
+  },
+  {
+    "name": "Jane Doe",
+    "age": "25",
+    "cpf": "351.370.123-04"
+  },
+  {
+    "name": "Paul McCartney",
+    "age": "75",
+    "cpf": "731.249.475.00"
+  },
+  {
+    "name": "John Lennon",
+    "age": "80",
+    "cpf": "123.456.789-00"
+  },
+  {
+    "name": "Ringo Starr",
+    "age": "81",
+    "cpf": "009.876.543-21"
+  },
+  {
+    "name": "George Harrison",
+    "age": "76",
+    "cpf": "777.777.777-77"
+  }
+]
