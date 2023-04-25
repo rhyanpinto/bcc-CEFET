@@ -1,4 +1,4 @@
-import { EmailValidatorFnProtocol, EmailValidatorProtocol } from "./validation/emailValidatorProtocol";
+import { EmailValidatorFnProtocol, EmailValidatorProtocol } from "./validation/EmailValidatorProtocol";
 import { EmailValidatorClassAdapter } from "./validation/EmailValidatorClassAdapter";
 import { emailValidatorFnAdapter } from "./validation/EmailValidatorFnAdapter";
 
